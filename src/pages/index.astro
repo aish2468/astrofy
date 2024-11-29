@@ -16,19 +16,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
   <div class="pb-12 mt-5">
     <div class="text-xl py-1">Hey there 👋</div>
-    <div class="text-5xl font-bold">I'm Bolaji Aishat</div>
-    <div class="text-3xl py-3 font-bold">Digital Marketing Specialist</div>
+    <div class="text-5xl font-bold">I'm Bolaji Aishat Adenike</div>
+    <div class="text-3xl py-3 font-bold">Digital Marketing Specialist and Entreprenuer</div>
     <div class="py-2">
       <text class="text-lg">
-        This is <b>Astrofy</b> a free and open-source template for your Personal Portfolio Website built with Astro and TailwindCSS.
-        Create in minutes a website with Blog, CV, Project Section, Store and RSS Feed. I hope you find
-        it useful!
+        I am a results-oriented Digital Marketing Specialist with a distinguished track record in amplifying brand visibility, boosting website traffic, and driving lead generation. My forte lies in orchestrating and executing sophisticated digital marketing strategies that span SEO, PPC, social media, and email marketing, all designed to achieve maximum impact and ROI.
+
       </text>
     </div>
     <div class="mt-8">
-      <a class="btn" href="https://twitter.com/manuelernestog" target="_blank"> Let's connect!</a>
-      <a href="https://github.com/manuelernestog/astrofy" target="_blank" class="btn btn-outline ml-5">
-        Get This template
+      <a class="btn" href="https://www.linkedin.com/in/aishat-bolaji-b54a67294/" target="_blank"> Let's connect!</a>
+      <a href="c:\Users\MY PC\Downloads\Bolaji Aishat Adenike (1) (1).docx" target="_blank" class="btn btn-outline ml-5">
+        Review my resume
       </a>
     </div>
   </div>
@@ -60,23 +59,5 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     badge="FOSS"
   />
 
-  <div>
-    <div class="text-3xl w-full font-bold mb-5 mt-10">Latest from blog</div>
-  </div>
-
-  {
-    last_posts.map((post) => (
-      <>
-        <HorizontalCard
-          title={post.data.title}
-          img={post.data.heroImage}
-          desc={post.data.description}
-          url={"/blog/" + createSlug(post.data.title, post.slug)}
-          target="_self"
-          badge={post.data.badge}
-        />
-        <div class="divider my-0" />
-      </>
-    ))
-  }
+  
 </BaseLayout>
